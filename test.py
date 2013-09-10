@@ -10,7 +10,7 @@ print 'Creating database'
 
 r.db_create('wercker_tutorial').run(conn)
 
-print 'creating table'
+print 'Creating table'
 
 r.db('wercker_tutorial').table_create('decepticons').run(conn)
 
