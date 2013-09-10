@@ -9,4 +9,5 @@ run add-apt-repository -y ppa:rethinkdb/ppa
 run apt-get update
 run apt-get install -y rethinkdb
 
+EXPOSE 29015
 EXPOSE 8080

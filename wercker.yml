@@ -10,7 +10,7 @@ build:
           sudo pip install -r requirements.txt
     - script:
         name: build container
-        code: sudo docker build -t mies/rethink .
+        code: sudo docker build -t mies/rethinkdb .
     - script:
         name: bootstrap containers
         code: source run.sh
